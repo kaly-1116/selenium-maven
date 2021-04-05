@@ -1,0 +1,15 @@
+com\selenium\practice\W3schoolsWindowTest.class
+com\selenium\helpers\Driver.class
+com\selenium\practice\PracticeTest.class
+com\selenium\pages\LipotechPage.class
+com\selenium\practice\AmazonTest.class
+com\selenium\practice\FlipkartTest.class
+com\selenium\practice\W3schoolsDemoTest.class
+com\selenium\pages\W3schoolsDemoPage.class
+com\selenium\pages\W3schoolsPage.class
+com\selenium\pages\ClearTripPage.class
+com\selenium\practice\LipotechTest.class
+com\selenium\pages\AmazonPage.class
+com\selenium\practice\W3schoolsTest.class
+com\selenium\practice\ClearTripTest.class
+com\selenium\pages\FlipkartPage.class
