@@ -10,6 +10,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
+import java.util.concurrent.TimeUnit;
 
 public class Driver {
 
@@ -34,7 +35,9 @@ public class Driver {
             }
 
         }
-        return driver;
+        driver.manage().timeouts().implicitlyWait(300, TimeUnit.MILLISECONDS);
+
+     return driver;
     }
 
     public static Object getProperty(String key) throws IOException {
